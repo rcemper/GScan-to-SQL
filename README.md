@@ -4,25 +4,25 @@
  It is also NOT serviced by InterSystems Support !   
 ~~~ 
 
-A global used by default storage has in most cases just 1 subscript level  
-that represents the IDKEY. For an index-globals we may see 2 or more   
-subscript levels. Arrays, or parent-child relationships or persistenst  
-classes extending a base data class are examples where we see more levels.   
-Though all these globals are rather uniform.  
+In most cases, a global used by default storage has just 1 subscript level that     
+represents the IDKEY.  For an index-globals we may see 2 or more subscript levels.     
+Arrays, or parent-child relationships or persistent classes extending a base data class   
+are examples where we see more levels. Though all these globals are quite uniform.  
 
 And then we see globals not related to classes or tables like ^SPOOL,   
 or ^ERRORS, or ^%SYS where the structure depends on various levels  
 of subscripts with special meaning. 
 
-Analysis of those non-comform globals is a challenge and just dumping  
+Analysis of those non-conform globals is a challenge and just dumping  
 it doesn't necessarily help to understand the dependencies.    
 
 This example is oriented at the old joke:   
-"How do you eat an elephant?" ==> "cut in thin slices !"   
+"How do you eat an elephant?" ==> "cut in thin slices !" 
+  
 That's the offer: By an SQL statement you can display the stucture    
-of any global level by level. You provide global name and max.level    
+of any global level by level. You provide global name and the maximum level    
 and get back the related subscripts, $Data of the node teh number of   
-next subnodes and eventual the content stored at that level.  
+next subnodes and - if avaiable - the content stored at that level.  
 
 example: 
 __SELECT * FROM rcc_G.scan where rcc_G.Scan('^%SYS',1)=1__
