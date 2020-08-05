@@ -83,4 +83,4 @@ Reference                                            Level	$D	SubNodes	Value
 (65592,2,"*STACK",1,"V","%00000","N","""JournalState""")	8	1	 0	       4
 ~~~
 
-[Article in DC](https://community.intersystems.com/post/golbal-scanning-slicing)
+[Article in DC](https://community.intersystems.com/post/global-scanning-slicing)
