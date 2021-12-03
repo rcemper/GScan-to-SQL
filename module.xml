@@ -3,12 +3,22 @@
   <Document name="global-scan-to-sql.ZPM">
     <Module>
       <Name>global-scan-to-sql</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Description>Analyze Globals by Subscript-Level to SQL</Description>
       <Keywords>Global, SQL, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
        <Resource Name="rcc.G.PKG"/>
+<AfterInstallMessage>
+Just providing the global name results in a full global dump.
+&#13;Example:
+&#13;USER>zn "irisapp"
+&#13;IRISAPP>d $system.SQL.Shell()
+&#13;SQL Command Line Shell
+&#13; SELECT * FROM rcc_G.scan where rcc_G.Scan('^%SYS',1)=1
+&#13; SELECT * FROM rcc_G.scan where rcc_G.Scan('^%SYS',2)=1
+&#13; SELECT * FROM rcc_G.scan where rcc_G.Scan('^ERRORS',37)=1 and id['Jour'
+</AfterInstallMessage>
     </Module>
   </Document>
 </Export>
