@@ -1,9 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.1 and on Caché 2018.1.3 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
-
 In most cases, a global used by default storage has just 1 subscript level that     
 represents the IDKEY.  For an index-globals we may see 2 or more subscript levels.     
 Arrays, or parent-child relationships or persistent classes extending a base data class   
@@ -84,3 +78,11 @@ Reference                                            Level	$D	SubNodes	Value
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/global-scanning-slicing)
+
+[Demo Server SMP](https://global-scan-to-sql.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://global-scan-to-sql.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
