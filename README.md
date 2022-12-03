@@ -78,9 +78,3 @@ Reference                                            Level	$D	SubNodes	Value
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/global-scanning-slicing)
-
-[Demo Server SMP](https://global-scan-to-sql.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://global-scan-to-sql.demo.community.intersystems.com/terminal/)    
-        
-**Code Quality**   
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1772/screenshots/epobbrtypuf8vlgewuj8jnjhejq.jpg">
