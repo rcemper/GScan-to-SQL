@@ -3,7 +3,7 @@
   <Document name="global-scan-to-sql.ZPM">
     <Module>
       <Name>global-scan-to-sql</Name>
-      <Version>1.0.4</Version>
+      <Version>1.0.5</Version>
       <Description>Analyze Globals by Subscript-Level to SQL</Description>
       <Keywords>Global, SQL, COS</Keywords>
       <Packaging>module</Packaging>
